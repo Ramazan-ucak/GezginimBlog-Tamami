@@ -1,0 +1,105 @@
+﻿.KategoriContainer{
+    min-height:450px;
+    border: 1px solid silver;
+    border-radius:14px;
+    margin-top:25px;
+    width:1300px;
+}
+.SehirBaslik {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    background-color: #16dddd;
+    padding:20px;
+}
+.KategoriContent{
+    padding:40px;
+}
+.BasariliEkleme{
+    border: 1px solid #098313;
+    background-color:#c8ffbb;
+    color:#098113;
+    border-radius:14px;
+    padding:20px;
+}
+.BasarisizEkleme {
+    border: 1px solid #890909;
+    background-color: #ffbcbc;
+    color: #890909;
+    border-radius:14px;
+    padding:20px;
+}
+.row{
+    padding:10px 0;
+}
+    .row .FormInput{
+        width:450px;
+        padding:10px;
+        border: 1px solid silver;
+        border-radius:14px;
+        margin-top:10px;
+    }
+    .row .EkleButton {
+        background-color: #16dddd;
+        color:black;
+        border-radius:14px;
+        text-decoration:none;
+        padding:10px 30px;
+    }
+        .row .EkleButton:hover {
+            background-color: #c4f25f;
+        }
+
+.Contenttable{
+    padding: 0px !important;
+}
+.ListTable{
+    width: 100%;
+    border-top:1px solid silver;
+}
+.ListTable tr th{
+    padding:20px 15px;
+    background-color:#f1f1f1;
+    text-align:left;
+    border-right:1px solid silver;
+    border-bottom:3px solid gray;
+}
+.ListTable tr td{
+    border-bottom:1px solid silver;
+    padding: 20px 15px;
+}
+.TableButton{
+    padding:4px 8px;
+    text-decoration:none;
+    border-radius:8px;
+}
+.Update {
+    background-color: #31de94;
+    border: 1px solid #16dddd;
+    color: white;
+   
+}
+    .Update:hover {
+        background-color: #c4f25f;
+        color:white;
+    }
+
+.Delete {
+    background-color: #ffbcbc;
+    border: 1px solid #ffbcbc;
+    color: darkred;
+}
+.Delete:hover{
+    background-color:darkred;
+    color:white;
+}
+.status {
+    background-color: #c384ef;
+    border: 1px solid #c384ef;
+    color: green;
+}
+
+    .status:hover {
+        background-color: green;
+        color: white;
+    }
+

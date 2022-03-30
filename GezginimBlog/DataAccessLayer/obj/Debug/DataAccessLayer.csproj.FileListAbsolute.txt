@@ -1,0 +1,6 @@
+C:\Users\admin\source\repos\GezginimBlog\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\admin\source\repos\GezginimBlog\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\admin\source\repos\GezginimBlog\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\GezginimBlog\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\GezginimBlog\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\admin\source\repos\GezginimBlog\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

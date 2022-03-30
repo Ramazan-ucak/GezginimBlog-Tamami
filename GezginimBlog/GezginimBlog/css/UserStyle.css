@@ -1,0 +1,172 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bradley Hand ITC';
+    background-color: #f6edba;
+}
+
+.temp {
+    background-color: #dedede;
+    height: 500px;
+}
+
+.Container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ccc0c0;
+}
+
+.header {
+    padding: 20px 0;
+    
+    height: 100px;
+    
+}
+
+.Logo {
+    width: 250px;
+    float: left;
+}
+
+    .Logo img {
+        width: 200px;
+    }
+
+.Yazi {
+    color: #4d0404;
+    padding-left: 400px;
+    padding-top: 25px;
+}
+
+.User {
+    width: 250px;
+    float: right;
+    padding-bottom: 25px;
+    text-align: right;
+}
+
+    .User a {
+        color: #4d0404;
+        text-decoration: none;
+        padding: 0px 20px;
+    }
+
+.Contentt {
+    width: 780px;
+    padding: 10px 10px 0px 0px;
+    float: right;
+    background-color: #f6edba;
+    min-height:1000px;
+   
+}
+
+.GenelMenu {
+    width: 200px;
+    padding: 15px 10px 0px 0px;
+    float: left;
+    min-height: 1000px;
+   
+}
+
+    .GenelMenu ul {
+        list-style-type: none;
+    }
+
+        .GenelMenu ul a {
+            text-decoration: none;
+            color: #ef4f1b;
+        }
+
+            .GenelMenu ul a li {
+                padding: 10px;
+                border-right: 1px solid #f8d150;
+                border-left: 1px solid #f8d150;
+                
+            }
+
+            .GenelMenu ul a:hover li {
+                background-color: #d4bb45;
+            }
+.Title {
+    padding: 10px 10px;
+    color: #ef4f1b;
+}
+.Image img{
+    width:100%;
+}
+.covering {
+    padding: 13px 13px;
+    color: #4d0404;
+    font-family:Calibri;
+}
+.information {
+    font-family: Calibri;
+    color: #4d0404;
+}
+
+.Deneyim {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    width:300px;
+    height:350px;
+}
+.ButtonDevam {
+   
+    color: #ef4f1b;
+   
+   
+}
+    .ButtonDevam a {
+        text-decoration: none;
+        color: #ef4f1b;
+        text-align: right;
+    }
+
+.Comment{
+    color:gray;
+}
+.CommentTitle {
+    border-top: 1px solid #f8d150;
+    border-bottom: 1px solid #f8d150;
+    margin-bottom: 40px;
+    border: 1px solid #f8d150;
+    background-color: #ccc0c0;
+}
+.area{
+   width:100%;
+   margin-bottom:20px;
+}
+.YorumItem {
+    border-top: 1px solid #f8d150;
+    border-bottom: 1px solid #f8d150;
+    padding: 20px 10px;
+}
+.YorumItem label{
+    color:gray;
+}
+.YorumButton {
+    padding: 3px 70px;
+    background-color: #f8d150;
+    color: #4d0404;
+    border-radius: 40px;
+    text-decoration: none;
+    border: 1px solid #f8d150;
+}
+    .YorumButton:hover {
+        background-color: #d4bb45;
+    }
+.Deneyim2 {
+    margin: 10px;
+    padding: 10px;
+}
+.girisLink{
+
+}
+.girisLink a{
+    text-decoration:none;
+}

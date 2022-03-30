@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Yonetici.master.cs" Inherits="GezginimBlog.Yoneticim.Yonetici" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Gezginim Blog Yönetim Paneli</title>
+    <link href="css/admindesign.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="UstMenu" >
+                <div class="Logo">
+                    <h1>Gezginim Blog</h1>
+                </div>
+                <div class="User">
+                    <asp:Label ID="lbl_kullanici" runat="server" Style="margin-right:20px;"></asp:Label>
+                    <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_cikis_Click" >Çıkış Yap</asp:LinkButton>
+                </div>
+            </div>
+            <div>
+                <div class="AltMenu">
+                    <ul class="Menu">
+                        <a href="Default.aspx">
+                            <li>Anasayfa</li>
+                        </a>
+                        <a href="SehirListele.aspx">
+                            <li>Şehirler</li>
+                        </a>
+                        <a href="SehirEkle.aspx">
+                            <li>Şehir Ekle</li>
+                        </a>
+                        <a href="DeneyimListele.aspx">
+                            <li>Deneyimler</li>
+                        </a>
+                        <a href="DeneyimEkle.aspx">
+                            <li>Deneyim Ekle</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="Icerik">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+            
+        </div>
+    </form>
+     <script src="ckeditor/ckeditor.js"></script>
+     <script>
+         CKEDITOR.replace('ContentPlaceHolder1_tb_icerik');
+     </script>
+</body>
+</html>

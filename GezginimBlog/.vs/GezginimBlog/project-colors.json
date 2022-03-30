@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9d423254-af41-4812-bd27-911d24dacde6": {
+      "ProjectGuid": "9d423254-af41-4812-bd27-911d24dacde6",
+      "DisplayName": "GezginimBlog",
+      "ColorIndex": 0
+    },
+    "e8df11e2-f7cd-44c2-8d28-cc4de865aa35": {
+      "ProjectGuid": "e8df11e2-f7cd-44c2-8d28-cc4de865aa35",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

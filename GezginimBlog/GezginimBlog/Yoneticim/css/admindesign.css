@@ -1,0 +1,55 @@
+﻿*,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family:Calibri;
+}
+.UstMenu{
+    height:100px;
+    background-color:#c4f25f
+}
+.Logo{
+    color:white;
+    text-align:center;
+    padding-top:30px;
+    
+}
+.User{
+    color:gray;
+    float:right;
+    padding-top:1px;
+    padding-right:15px;
+   
+}
+    .User a{
+        color:gray;
+        text-decoration:none;
+    }
+
+.AltMenu{
+    height:33px;
+    background-color:#16dddd;
+}
+.Menu{
+    list-style-type:none;
+}
+.Menu a{
+    color:teal;
+    text-decoration:none;
+
+}
+.Menu a li{
+    padding:7px;
+    padding-left:20px;
+    /*border-right:1px solid silver;*/
+    float: left;
+    padding-right:180px;
+}
+    .Menu a:hover li {
+        background-color: #c4f25f;
+    }
+.Icerik{
+    width:88%;
+    padding:20px;
+}     

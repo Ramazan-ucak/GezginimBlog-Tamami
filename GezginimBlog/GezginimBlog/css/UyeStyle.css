@@ -1,0 +1,62 @@
+﻿.MemberTitle {
+    border: 1px solid silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #ccc0c0;
+    padding: 25px;
+    color: #4d0404;
+}
+.Form{
+    border:1px solid silver;
+    padding:25px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    
+}
+.GirisForm{
+
+}
+.row {
+    padding: 10px 0;
+   
+}
+.row label{
+    font-size:13pt;
+}
+.Textbox {
+    padding: 5px;
+    border: 1px solid silver;
+    width: 70%;
+    border-radius: 40px;
+}
+.PanelImage {
+    width: 110px;
+}
+.UyeButton {
+    padding: 10px 60px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #4d0404;
+    background-color: #ef4f1b;
+}
+    .UyeButton:hover {
+        background-color: #d4bb45;
+    }
+
+.KayıtOl {
+    
+
+}
+    .KayıtOl a {
+        padding: 3px 70px;
+        background-color: #f8d150;
+        color: #4d0404;
+        border-radius: 40px;
+        text-decoration: none;
+        border: 1px solid #f8d150;
+    }
+    
+
+    .KayıtOl:hover {
+        background-color: #d4bb45;
+    }
